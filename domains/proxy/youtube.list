@@ -1,7 +1,41 @@
+# ==================================================
+# YouTube
+# Source: Shadowrocket Rules
+# Optimized for OpenWrt dnsmasq + vpn-policy-routing
+# ==================================================
+
+# Core
 youtube.com
 youtu.be
-googlevideo.com
-ytimg.com
+yt.be
+youtube-nocookie.com
+youtubeeducation.com
+youtubekids.com
+youtubegaming.com
+
+# API
 youtubei.googleapis.com
 youtube.googleapis.com
+youtubeembeddedplayer.googleapis.com
+jnn-pa.googleapis.com
+yt-video-upload.l.google.com
+
+# Video delivery
+googlevideo.com
+video.google.com
+
+# Images
+ytimg.com
 ggpht.com
+ggpht.cn
+ytimg.l.google.com
+i.ytimg.com
+yt3.ggpht.com
+yt4.ggpht.com
+yt3.googleusercontent.com
+
+# UI
+youtube-ui.l.google.com
+wide-youtube.l.google.com
+withyoutube.com
+returnyoutubedislikeapi.com
