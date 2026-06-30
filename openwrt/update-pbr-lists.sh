@@ -11,4 +11,8 @@ wget -q -O "$DIR/streaming.list" "$BASE/proxy/streaming.list"
 wget -q -O "$DIR/apple.list" "$BASE/direct/apple.list"
 wget -q -O "$DIR/local_ru.list" "$BASE/direct/local_ru.list"
 
-/etc/init.d/vpn-policy-routing restart
+if [ -x /root/generate-vpr.sh ]; then
+    /root/generate-vpr.sh
+else
+    /etc/init.d/vpn-policy-routing restart
+fi
